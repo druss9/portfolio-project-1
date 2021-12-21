@@ -8,9 +8,12 @@ import Header from "./components/header";
 class App extends Component {
   render() {
     return ( 
-        <div><Navbar /><Header /></div> 
+        <div>
+          <Navbar />
+          <Header />
+        </div> 
     );
-  }
+  };
 }
 
 export default App;
