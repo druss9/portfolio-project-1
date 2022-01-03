@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Particles from "react-particles-js"
 import Navbar from "./components/navbar";
 import Header from "./components/header";
-import Particles from "react-particles-js"
+import AboutMe from "./components/aboutMe";
 
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
           />
           <Navbar />
           <Header />
+          <AboutMe />
         </div> 
     );
   };
