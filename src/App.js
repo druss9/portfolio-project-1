@@ -5,6 +5,7 @@ import Particles from "react-particles-js"
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import AboutMe from "./components/aboutMe";
+import Services from "./components/services";
 
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
           <Navbar />
           <Header />
           <AboutMe />
+          <Services />
         </div> 
     );
   };
