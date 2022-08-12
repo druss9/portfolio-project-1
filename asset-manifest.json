@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-project-1/static/css/main.5929f9b4.css",
+    "main.js": "/portfolio-project-1/static/js/main.59edd2c3.js",
+    "static/media/netflix.png": "/portfolio-project-1/static/media/netflix.5a78c4b980990001021b.png",
+    "static/media/city-guide-app.png": "/portfolio-project-1/static/media/city-guide-app.e4843bd01dc4d1634538.png",
+    "static/media/portfolio.png": "/portfolio-project-1/static/media/portfolio.e4d369bc88d9501b6330.png",
+    "static/media/task-manager.png": "/portfolio-project-1/static/media/task-manager.7cdcc29ec2944720c44f.png",
+    "static/media/developer.jpg": "/portfolio-project-1/static/media/developer.86a39909f4b6157391a6.jpg",
+    "static/media/me.jpg": "/portfolio-project-1/static/media/me.5dacc65a3e018bb8af98.jpg",
+    "index.html": "/portfolio-project-1/index.html",
+    "main.5929f9b4.css.map": "/portfolio-project-1/static/css/main.5929f9b4.css.map",
+    "main.59edd2c3.js.map": "/portfolio-project-1/static/js/main.59edd2c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5929f9b4.css",
+    "static/js/main.59edd2c3.js"
+  ]
+}
