@@ -7,6 +7,7 @@ import Header from "./components/header";
 import AboutMe from "./components/aboutMe";
 import Services from "./components/services";
 import Experience from "./components/experience";
+import Portfolio from "./components/portfolio";
 
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
           <AboutMe />
           <Services />
           <Experience />
+          <Portfolio />
         </div> 
     );
   };
