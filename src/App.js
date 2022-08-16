@@ -18,6 +18,10 @@ class App extends Component {
          <Particles
          className="particles-canvas"
           options={{
+            fullScreen: {
+              enable: false,
+              zIndex: 0
+            },
             particles: {
               number: {
                 value: 30,
@@ -127,23 +131,7 @@ class App extends Component {
             }
           }
         },
-        backgroundMask: {
-          enable: true,
-          cover: {
-            color: {
-              value: {
-                r: 0,
-                g: 0,
-                b: 0
-              }
-            }
-          }
-        },
-        retina_detect: true,
-        fps_limit: 60,
-        background: {
-          image: "url('https://particles.js.org/images/background3.jpg')"
-        }
+   
       }}
     />
         
