@@ -130,8 +130,7 @@ class App extends Component {
               particles_nb: 2
             }
           }
-        },
-   
+        }
       }}
     />
         
