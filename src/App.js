@@ -15,132 +15,104 @@ class App extends Component {
     return ( 
       <div>
          
-         <Particles
-         className="particles-canvas"
+         <Particles className="particles-canvas"
           options={{
             fullScreen: {
               enable: false,
               zIndex: 0
             },
             particles: {
-              number: {
-                value: 30,
-                limit: 300,
-                density: {
+              color: {
+                value: "#FF0000",
+                animation: {
                   enable: true,
-                  value_area: 900
+                  speed: 10
                 }
               },
+              move: {
+                attract: {
+                  enable: true,
+                  rotate: {
+                    distance: 100,
+                    x: 2000,
+                    y: 2000
+                  }
+                },
+                direction: "none",
+                enable: true,
+                outModes: {
+                  default: "destroy"
+                },
+                path: {
+                  clamp: false,
+                  enable: true,
+                  delay: {
+                    value: 0
+                  },
+                  generator: "polygonPathGenerator",
+                  options: {
+                    sides: 6,
+                    turnSteps: 30,
+                    angle: 30
+                  }
+                },
+                random: false,
+                speed: 3,
+                straight: false,
+                trail: {
+                  fillColor: "#000",
+                  length: 20,
+                  enable: true
+                }
+              },
+              number: {
+                density: {
+                  enable: true,
+                  area: 800
+                },
+                value: 0
+              },
+              opacity: {
+                value: 1
+              },
               shape: {
-                type: "circle",
-                stroke: {
-                  width: 0,
-                  color: "##f9ab00"
-            },
-            polygon: {
-              nb_sides: 5
-            },
-            image: {
-              src: "images/github.svg",
-              width: 100,
-              height: 100
-            }
-          },
-          opacity: {
-            value: 0.5,
-            random: true,
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.5,
-              sync: false
-            }
-          },
-          size: {
-            value: 30,
-            random: true,
-            anim: {
-              enable: true,
-              speed: 10,
-              size_min: 10,
-              sync: false
-            }
-          },
-          line_linked: {
-            enable: true,
-            distance: 100,
-            color: "#ffffff",
-            opacity: 1,
-            width: 1
-          },
-          move: {
-            enable: true,
-            speed: 3,
-            direction: "none",
-            random: false,
-            straight: false,
-            out_mode: "out",
-            bounce: false,
-            attract: {
-              enable: false,
-              rotateX: 600,
-              rotateY: 1200
-            }
-          }
-        },
-        interactivity: {
-          detect_on: "canvas",
-          events: {
-            onHover: {
-              enable: true,
-              mode: "bubble",
-              parallax: {
-                enable: false,
-                force: 60,
-                smooth: 10
+                type: "circle"
+              },
+              size: {
+                value: 2
               }
             },
-            onClick: {
-              enable: true,
-              mode: "push"
+            background: {
+              color: "#000"
             },
-            resize: true
-          },
-          modes: {
-            grab: {
-              distance: 400,
-              lineLinked: {
-                opacity: 1
+            fullScreen: {
+              zIndex: -1
+            },
+            emitters: {
+              direction: "none",
+              rate: {
+                quantity: 1,
+                delay: 0.25
+              },
+              size: {
+                width: 0,
+                height: 0
+              },
+              position: {
+                x: 50,
+                y: 50
               }
-            },
-            bubble: {
-              distance: 400,
-              size: 100,
-              duration: 2,
-              opacity: 1,
-              speed: 2
-            },
-            repulse: {
-              distance: 200
-            },
-            push: {
-              particles_nb: 4
-            },
-            remove: {
-              particles_nb: 2
             }
-          }
-        }
-      }}
-    />
+          }}
+        />
         
-          <Navbar />
-          <Header />
-          <AboutMe />
-          <Services />
-          <Experience />
-          <Portfolio />
-        </div> 
+        <Navbar />
+        <Header />
+        <AboutMe />
+        <Services />
+        <Experience />
+        <Portfolio />
+      </div> 
     );
   };
 }
