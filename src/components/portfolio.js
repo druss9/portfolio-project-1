@@ -108,7 +108,7 @@ const portfolio = () => {
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
-        <div className="image-box-wrapper row justify-content-center">
+        <div className="image-box-wrapper d-flex flex-row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
             <div className="overflow"></div>
